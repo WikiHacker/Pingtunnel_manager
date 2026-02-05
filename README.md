@@ -17,7 +17,7 @@ This project provides an easy-to-use installer and manager for [Pingtunnel](http
 
 ## 📦 Requirements
 
-- Only Ubuntu 20,22,24
+- Only Ubuntu 20,22,24,25
 - Python 3
 - `curl` for downloading the installer
 - Atleast 1 GB On Both Server Memory
@@ -28,9 +28,18 @@ This project provides an easy-to-use installer and manager for [Pingtunnel](http
 
 1. 📋 The Bash menu installer :
 
+For Ubuntu 24,25 :
+
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/hoseinlolready/Pingtunnel_manager/refs/heads/main/Source/bash.sh)
 ```
+
+For Ubuntu 20,22
+
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/hoseinlolready/Pingtunnel_manager/refs/heads/main/Source/bash2.sh)
+```
+
 ## 🧠 The tutorial (Farsi)
 
 [![Watch the video](https://img.youtube.com/vi/JvgmdQ6DCxU/maxresdefault.jpg)](https://www.youtube.com/watch?v=JvgmdQ6DCxU)
